@@ -1,0 +1,28 @@
+{
+    "name": "MyApplication",
+    "short_name":"MyApp",
+    "start_url": "./index.html",
+    "scope": ".",
+    "display":"standalone/minimal-ui/fulscreen/browser",
+    "background_color":"",
+    "theme_color":"",
+    "description":"",
+    "dir":"ltr",
+    "lang":"en-US",
+    "orientation":"landscape/portrait-primary",
+    "icons":[
+        {
+            "src":"",
+            "type":"image/png",
+            "sizes":"32x32"
+        }
+    ],
+    "related_application":[
+        {
+            "platform":"",
+            "url":"",
+            "id":""
+        }
+    ]
+
+}
