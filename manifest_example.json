@@ -1,15 +1,36 @@
 {
+    "id":"/index.html",
     "name": "MyApplication",
     "short_name":"MyApp",
     "start_url": "./index.html",
-    "scope": ".",
-    "display":"standalone/minimal-ui/fulscreen/browser",
+    "scope": "/",
+    "display":"standalone",
+    "display_override":[
+        "window-controls-overlay",
+        "fullscreen",
+        "minimal-ui"
+    ],
     "background_color":"",
     "theme_color":"",
     "description":"",
     "dir":"ltr",
     "lang":"en-US",
     "orientation":"landscape/portrait-primary",
+    "prefer_related_applications": false,
+    "related_application":[
+        {
+            "platform":"",
+            "url":"",
+            "id":""
+        }
+    ],
+     "features": [
+        "fast",
+        "simple"
+    ],
+    "categories": [
+        "business", "for-demo"
+    ],
     "icons":[
         {
             "src":"",
@@ -17,12 +38,22 @@
             "sizes":"32x32"
         }
     ],
-    "related_application":[
+    "screenshots": [
         {
-            "platform":"",
-            "url":"",
-            "id":""
+            "src": "assets/screenshots/signin-page.png",
+            "sizes": "1920x933",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "WebApp - Signin"
         }
+    ],
+    "shortcuts": [
+        {
+            "name": "Login",
+            "url": "/login",
+            "description": "Login Screen"
+        }
+        
     ]
 
 }
